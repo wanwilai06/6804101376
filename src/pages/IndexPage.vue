@@ -5,8 +5,8 @@
       <q-input filled type="number" v-model="age" label="Your age (อายุ) *" />
       <q-toggle v-model="accept" label="I accept the license and terms (我接受许可和条款语言)" />
       <div>
-        <q-btn label="SUBMIT" type="submit" color="primary" />
-        <q-btn label="RESET" type="reset" color="primary" flat class="q-ml-sm" />
+        <q-btn label="SUBMIT (提出する)" type="submit" color="primary" />
+        <q-btn label="RESET (リセット)" type="reset" color="primary" flat class="q-ml-sm" />
       </div>
     </q-form>
   </q-page>
